@@ -7,10 +7,13 @@ To run the application follow the following steps:
 ## How to use
 Go to url http://localhost:8080/prime-number/check/number to check if number is prime where:
 * number(Integer) - number to be checked for prime up to integer's max size.
+
 Example: http://localhost:8080/prime-number/check/5
 Go to url http://localhost:8080/prime-number/next/number where:
 * number(Integer) - number to be used as a base to find next prime. if the inputed number is prime it will be returned.
+
 Example: http://localhost:8080/prime-number/next/5
+
 Swagger UI: http://localhost:8080/swagger-ui.html
 ## Implementation notes
 For this example the application supports only int numbers. 
